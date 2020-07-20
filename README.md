@@ -11,15 +11,15 @@ Challenge de réalisation d'un "Cookie Clicker" en groupe de 4. Le challenge à 
 - Step 5 : Mettre un coût au multiplicateur, étant donné qu'il permet de gagner plus de points, il ne doit pas être gratuit.
 - Step 6 : Pas de crédit. On ne peux pas avoir un score en négatif. Mettre à jour le score après un achat.
 - Step 7 : Afficher le multiplicateur, si par exemple on multiplie par 5, afficher quelque choses comme "x5".
-- Step 8 : Augmenter le cout d'achat du multiplicateur. A chaque fois qu'un multiplicateur à été acheter, augmenter le coût du prochain. 
-- Step 9 : Affichier le coût dans le texte du bouton. Il faut également avoir le prix de l'upgrade.
+- Step 8 : Augmenter le cout d'achat du multiplicateur. A chaque fois qu'un multiplicateur à été acheté, augmenter le coût du prochain. 
+- Step 9 : Afficher le coût dans le texte du bouton. Il faut également avoir le prix de l'upgrade.
 - Step 10 : L'auto-clicker ! Ajouter un bonus qui permet d'avoir un click automatique toutes les x seconds.
 - Step 11 : Bonus ! Ajouter une autre fonctionalité qui permet d'avoir un boost de 200% par click pendant 30 secondes. Quand le joueur achète ce bonus, un timer s'affiche pour voir le temps qu'il reste.
 - Step 12 : Bouton désactivé. Faire en sorte que si le joueur n'a pas l'argent requises pour le bonus ou la fonctionalité, qu'il ne puisse pas l'acheter.
 - Step 13 : Rendre le Cookier Clicker joli grâce au CSS et quelques fonctionalité Javascript ! 
 
 
-## **Update :scroll:**
+## **Update :scroll:**  
   - XXXX
 
 ## **Who ? :busts_in_silhouette:**
