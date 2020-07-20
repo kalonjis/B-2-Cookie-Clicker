@@ -1,0 +1,18 @@
+body{  
+  text-align: center;
+  background-color: darkslateblue;
+}
+
+#counter{
+  font-size: 4em;
+  font-weight: bold;
+  color: darkcyan;
+}
+
+#click{
+  font-size: 1.5em;
+  padding: .5em;
+  color: brown;
+  background-color: chocolate;
+  cursor: pointer;
+}
