@@ -1,0 +1,12 @@
+.mult__anim {
+    position: absolute;
+    right: 39vw;
+    top: -4vh;
+    transform: rotate(-25deg);
+    color: $mult-color;
+    -webkit-text-fill-color: $mult-color;
+    -webkit-text-stroke-width: 3px;
+     -webkit-text-stroke-color: $mult-contour;
+  font-size: 4em;
+  font-weight: 900;
+}

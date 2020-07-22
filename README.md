@@ -20,7 +20,7 @@ Challenge de réalisation d'un "Cookie Clicker" en groupe de 4. Le challenge à 
 
 
 ## **Update :scroll:**  
-  - XXXX
+  - Version 1 22/07/2020
 
 ## **Who ? :busts_in_silhouette:**
 - :godmode:[JackRob](https://github.com/JackRob)

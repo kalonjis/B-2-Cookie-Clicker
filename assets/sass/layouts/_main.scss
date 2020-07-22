@@ -1,0 +1,57 @@
+main {
+    margin: 0 auto;
+    text-align: center;
+}
+
+body {
+    background-color: #DABB8D;
+    font-family: sans-serif;
+}
+
+h1{
+    color: $color-one;
+    margin: 8vh;
+}
+.click__all{
+    position: relative;
+}
+
+.counter {
+    &__grp {
+        display: flex;
+        justify-content: center;
+        margin: 5vh 0;
+        i {
+            padding-left: 1vw;
+            color: $color-three;
+        }
+    }
+    &__texte {
+        font-size: 5rem;
+        line-height: 1.3em;
+        font-weight: 600;
+        color: white;
+    }
+}
+
+.center {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+#font1 {
+    font-size: 16pt;
+}
+
+#mult-price {
+    font-size: 13pt;
+}
+
+#auto-price {
+    font-size: 13pt;
+}
+
+#bonus-price {
+    font-size: 13pt;
+}
