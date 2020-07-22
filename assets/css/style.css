@@ -10,6 +10,20 @@
     transform: scale(0.9); }
   .btn--click i {
     color: white; }
+.btn--reset {
+  color: white;
+  font-weight: bold;
+  width: 4vw;
+  height: 4vw; }
+
+.action {
+  margin: 5vh 0;
+  background-color: beige;
+  width: 300px;
+  height: 80px;
+  text-align: center;
+  border-radius: 15px;
+  border: 5px solid brown; }
 
 main {
   margin: 0 auto;
@@ -21,7 +35,7 @@ body {
 
 h1 {
   color: #64472D;
-  margin-top: 10vh; }
+  margin: 8vh; }
 
 .click__all {
   position: relative; }
@@ -34,14 +48,27 @@ h1 {
     padding-left: 1vw;
     color: #BE743E; }
 .counter__texte {
-  font-size: 3rem;
+  font-size: 5rem;
+  line-height: 1.3em;
   font-weight: 600;
   color: white; }
 
 .center {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: auto; }
+
+#font1 {
+  font-size: 16pt; }
+
+#mult-price {
+  font-size: 13pt; }
+
+#auto-price {
+  font-size: 13pt; }
+
+#bonus-price {
+  font-size: 13pt; }
 
 .mult__anim {
   position: absolute;
