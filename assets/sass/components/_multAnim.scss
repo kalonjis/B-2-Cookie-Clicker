@@ -1,0 +1,28 @@
+.mult__anim {
+    position: absolute;
+    text-align: left;
+    right: 36vw;
+    top: -7vh;
+    color: $mult-color;
+    -webkit-text-fill-color: $mult-color;
+    -webkit-text-stroke-width: 3px;
+     -webkit-text-stroke-color: $mult-contour;
+  font-size: 4em;
+  font-weight: 900;
+  animation-name: bounce;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+  0% {
+          transform: rotate(-25deg) scale(0.8); 
+  } 
+  50%{
+        transform: rotate(-20deg) scale(1);  
+
+  }
+  100%{
+            transform:rotate(-25deg) scale(0.8); 
+  }
+}
