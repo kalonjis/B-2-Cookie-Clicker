@@ -1,18 +1,58 @@
-body{  
-  text-align: center;
-  background-color: darkslateblue;
-}
+.btn--click {
+  /* Bouton principal de click */
+  background-color: #E35151;
+  border-radius: 50%;
+  width: 8vw;
+  height: 8vw;
+  border: none;
+  transition: all 0.05s; }
+  .btn--click:active {
+    transform: scale(0.9); }
+  .btn--click i {
+    color: white; }
 
-#counter{
+main {
+  margin: 0 auto;
+  text-align: center; }
+
+body {
+  background-color: #DABB8D;
+  font-family: sans-serif; }
+
+h1 {
+  color: #64472D;
+  margin-top: 10vh; }
+
+.click__all {
+  position: relative; }
+
+.counter__grp {
+  display: flex;
+  justify-content: center;
+  margin: 5vh 0; }
+  .counter__grp i {
+    padding-left: 1vw;
+    color: #BE743E; }
+.counter__texte {
+  font-size: 3rem;
+  font-weight: 600;
+  color: white; }
+
+.center {
+  display: flex;
+  justify-content: space-between;
+  margin: auto; }
+
+.mult__anim {
+  position: absolute;
+  right: 39vw;
+  top: -4vh;
+  transform: rotate(-25deg);
+  color: #FF9901;
+  -webkit-text-fill-color: #FF9901;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #FFE600;
   font-size: 4em;
-  font-weight: bold;
-  color: darkcyan;
-}
+  font-weight: 900; }
 
-#click{
-  font-size: 1.5em;
-  padding: .5em;
-  color: brown;
-  background-color: chocolate;
-  cursor: pointer;
-}
+/*# sourceMappingURL=style.css.map */

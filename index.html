@@ -5,37 +5,57 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Cookie-Clicker</title>
-  <link rel="stylesheet" href="assets/css/style.css" />
+  <script src="https://kit.fontawesome.com/014e5b7b82.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 
 <body>
-
   <main>
-    <section>
-      <div id="counter">0</div>
-    <button id="click">Cookie-Clicker</button>
+    <!-- Compteur de Café-->
+    <h1>Coffee Clicker ! </h1>
+    <section class="counter">
+      <div class="counter__grp">
+        <div id="counter" class ="counter__texte">0</div>
+        <i class="fas fa-mug-hot fa-3x"></i>          
+      </div>
+      <!-- Bouton de click principal-->
+      <div class="click__all">
+        <button id="click" class="btn btn--click">
+          <i class="fas fa-hand-point-up fa-4x"></i>
+        </button>
+        <div class="mult__anim">x6</div>
+      </div>
+    <!-- Multiplicateur-->
     </section>
-    <section>
-      <div id="mult-price">price</div>
-      <div id="mult-by">mult by</div>
-    <button id="mult">Multiplicator</button>
-    </section>
-    <section>
-    <div id="auto-price">price</div>
-    <div id="auto-rate">rate</div>
-    <button id="auto-click">autoclick</button>
-  </section>
-  <section>
-    <div id="bonus-price">price</div>
-    <div id="bonus-timer">timer</div>
-    <button id="bonus">bonus</button>
-  </section>
+    <div class="center">
+      <section>
+          <button class="action" id="mult">
+              <div id="font1">Multiplicator</div>
+              <div id="mult-price">Price</div>
+              <div id="mult-by">Mult by</div>
+          </button>
+      </section>
+      <section>
+          <button class="action" id="auto-click">
+              <div id="font1">Autoclick</div>
+              <div id="auto-price">Price</div>
+              <div id="auto-rate">Rate</div>
+          </button>
+      </section>
+
+      <section>
+          <button class="action" id="bonus">
+              <div id="font1">Bonus</div>
+              <div id="bonus-price">Price</div>
+              <div id="bonus-timer">Timer</div>
+          </button>
+      </section>
+  </div>
   <button id="reset">reset</button>
-    
-  </main>
+</main>
 
   <!-- Fichier JS -->
-  <script src="./assets/js/script.js"></script>
+  <script src="assets/js/script.js"></script>
 </body>
 
 </html>
