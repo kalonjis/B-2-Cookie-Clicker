@@ -10,11 +10,9 @@ button {
             width: 8vw;
             height: 8vw;
             transition: all 0.05s;
-
             &:active{
                 transform: scale(0.9);
             }
-
            & i {
                 color: white; 
             }
