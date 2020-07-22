@@ -7,6 +7,7 @@
   const mult = document.getElementById('mult');
   const multPrice = document.getElementById('mult-price');
   const multBy = document.getElementById('mult-by');
+  const multAnim = document.getElementById("mult-anim")
   //section autoclick
   const autoPrice = document.getElementById('auto-price');
   const autoRate = document.getElementById('auto-rate');
@@ -67,6 +68,7 @@
     //section mult
     multPrice.innerText = "Price : " + fmultPrice();
     multBy.innerText = "Mult By : " + (parseInt(window.localStorage.getItem('mult')) + 1);
+    multAnim.innerHTML = "x" + (parseInt(window.localStorage.getItem('mult')) + 1);
     //section auto
     autoPrice.innerText = "Price : " + fautoPrice();
     autoRate.innerText = "Per sec : " + window.localStorage.getItem('auto-rate');

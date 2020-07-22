@@ -1,10 +1,14 @@
+button {
+    outline: 0px transparent !important;
+}
+
 .btn { 
+    border: none;
         &--click {  /* Bouton principal de click */
             background-color: $btn-color;
             border-radius: 50%;
             width: 8vw;
             height: 8vw;
-            border: none;
             transition: all 0.05s;
 
             &:active{
