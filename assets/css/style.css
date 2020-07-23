@@ -1,18 +1,35 @@
-body{  
+body {
+  background-color: bisque;
+}
+
+.center {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.action {
+  background-color: beige;
+  width: 300px;
+  height: 80px;
   text-align: center;
-  background-color: darkslateblue;
+  border-radius: 15px;
+  border: 5px solid brown;
 }
 
-#counter{
-  font-size: 4em;
-  font-weight: bold;
-  color: darkcyan;
+#font1 {
+  font-size: 16pt;
 }
 
-#click{
-  font-size: 1.5em;
-  padding: .5em;
-  color: brown;
-  background-color: chocolate;
-  cursor: pointer;
+#mult-price {
+  font-size: 13pt;
 }
+
+#auto-price {
+  font-size: 13pt;
+}
+
+#bonus-price {
+  font-size: 13pt;
+}
+/*# sourceMappingURL=style.css.map */
